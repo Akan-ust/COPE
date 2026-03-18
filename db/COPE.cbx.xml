@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="COPE">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_add_sub0:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_76i.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_clshift1:inst20|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_ukb.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_mux0:inst28|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_0qc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_clshift0:inst19|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_euc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|lpm_mux1:inst31|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_prc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
