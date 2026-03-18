@@ -1,0 +1,23 @@
+# Quartus 编译产生的临时文件夹
+db/
+incremental_db/
+greybox_tmp/
+hc_output/
+simulation/
+stp_msim_lock.dat
+*.rpt
+*.summary
+*.smsg
+*.jdi
+*.pin
+*.done
+*.qws
+*.bak
+
+# 编译生成的下载文件（如果需要保留固件，可以不忽略 .sof/.pof）
+# *.sof
+# *.pof
+
+# EDA 仿真工具产生的冗余
+msim_transcript
+modelsim.ini
