@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C120F780C8
-set_global_assignment -name TOP_LEVEL_ENTITY CU
+set_global_assignment -name TOP_LEVEL_ENTITY COPE
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:36:24  MARCH 18, 2026"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
@@ -82,7 +82,11 @@ set_global_assignment -name QIP_FILE lpm_decode0.qip
 set_global_assignment -name QIP_FILE lpm_mux6.qip
 set_global_assignment -name BDF_FILE CU.bdf
 set_global_assignment -name QIP_FILE lpm_or2.qip
-set_global_assignment -name QIP_FILE ../参考/任国林/lpm_or2.qip
+set_global_assignment -name BDF_FILE CPU.bdf
+set_global_assignment -name QIP_FILE lpm_or3.qip
+set_global_assignment -name BDF_FILE COPE.bdf
+set_global_assignment -name QIP_FILE lpm_rom0.qip
+set_global_assignment -name QIP_FILE lpm_ram_dq0.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
